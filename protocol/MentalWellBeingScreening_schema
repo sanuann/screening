@@ -1,0 +1,83 @@
+{
+    "@context": [ "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+        {
+            "rl": "https://raw.githubusercontent.com/ReproNim/reproschema-library/master/activities/"
+        }
+    ],
+    "@type": "reproschema:Protocol",
+    "@id": "MentalWellBeingScreening_schema",
+    "prefLabel": "Mental Wellbeing Screening",
+    "description": "Screening Protocol for a mental health wellbeing",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "landingPage": {
+        "@id": "README.md",
+        "@language": "en"
+    },
+    "ui": {
+        "addProperties": [
+            {"isAbout": "rl:PHQ-9/PHQ9_schema",
+            "variableName": "PHQ9_schema",
+            "prefLabel": {"en": "Depression"}
+            },
+            {"isAbout": "rl:EPDS/EPDS_schema",
+            "variableName": "EPDS_schema",
+            "prefLabel": {"en": "Postpartum Depression"}
+            },
+            {"isAbout": "rl:GAD7/GAD7_schema",
+            "variableName": "GAD7_schema",
+            "prefLabel": {"en": "Anxiety"}
+            },
+            {"isAbout": "rl:PQ-B/PQB_schema",
+            "variableName": "PQB_schema",
+            "prefLabel": {"en": "Psychosis"}
+            },
+            {"isAbout": "rl:MDQ/MDQ_schema",
+            "variableName": "MDQ_schema",
+            "prefLabel": {"en": "Bipolar"}
+            },
+            {"isAbout": "rl:SWED/SWED_schema",
+            "variableName": "SWED_schema",
+            "prefLabel": {"en": "Eating Disorder"}
+            },
+            {"isAbout": "rl:PC-PTSD/PCPTSD_schema",
+            "variableName": "PCPTSD_schema",
+            "prefLabel": {"en": "PTSD"}
+            },
+            {"isAbout": "rl:PSC/PSC_schema",
+            "variableName": "PSC_schema",
+            "prefLabel": {"en": "Questionnaire for Parents"}
+            },
+            {"isAbout": "rl:PSC-Y/PSCY_schema",
+            "variableName": "PSCY_schema",
+            "prefLabel": {"en": "Questionnaire for Youths"}
+            },
+            {"isAbout": "rl:CageAid/CageAid_schema",
+            "variableName": "CageAid_schema",
+            "prefLabel": {"en": "Addiction"}
+            },
+            {"isAbout": "rl:ThankYou/ThankYou_schema",
+            "variableName": "ThankYou_schema",
+            "prefLabel": {"en": "ThankYou"}
+            }
+        ],
+        "order": [
+            "../activities/ScreenerSelector/ScreenerSelector_schema",
+            "rl:PHQ-9/PHQ9_schema",
+            "rl:EPDS/EPDS_schema",
+            "rl:GAD7/GAD7_schema",
+            "rl:PQ-B/PQB_schema",
+            "rl:MDQ/MDQ_schema",
+            "rl:SWED/SWED_schema",
+            "rl:PC-PTSD/PCPTSD_schema",
+            "rl:PSC/PSC_schema",
+            "rl:PSC-Y/PSCY_schema",
+            "rl:CageAid/CageAid_schema"
+            "rl:ThankYou/ThankYou_schema"
+        ],
+        "shuffle": false,
+        "allow": ["reproschema:AutoAdvance",
+                  "reproschema:DisableBack",
+                  "reproschema:AllowExport"]
+    }
+}

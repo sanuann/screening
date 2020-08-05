@@ -1,0 +1,94 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "screener_select",
+    "prefLabel": "screener select",
+    "description": "item to select a screener",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "question": {
+        "en": "Select one among these: "
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+	    "@type": "reproschema:ResponseOption",
+	    "valueType": "xsd:integer",
+	    "minValue": 0,
+	    "maxValue": 3,
+	    "multipleChoice": true,
+	    "choices": [
+	        {
+	            "name": {
+	                "en": "Depression",
+	                "es": "Depression_es"
+	            },
+	            "value": 0
+	        },
+	        {
+	            "name": {
+	                "en": "Postpartum Depression",
+	                "es": "Postpartum Depression_es"
+	            },
+	            "value": 1
+	        },
+	        {
+	            "name": {
+	                "en": "Anxiety",
+	                "es": "Anxiety_es"
+	            },
+	            "value": 2
+	        },
+	        {
+	            "name": {
+	                "en": "Psychosis",
+	                "es": "Psychosis_es"
+	            },
+	            "value": 3
+	        },
+		    {
+	            "name": {
+	                "en": "Bipolar",
+	                "es": "Bipolar_es"
+	            },
+	            "value": 4
+	        },
+		    {
+	            "name": {
+	                "en": "Eating Disorder",
+	                "es": "Eating Disorder_es"
+	            },
+	            "value": 5
+	        },
+		    {
+	            "name": {
+	                "en": "PTSD",
+	                "es": "PTSD_es"
+	            },
+	            "value": 6
+	        },
+		    {
+	            "name": {
+	                "en": "Questionnaire for Parents",
+	                "es": "Questionnaire for Parents_es"
+	            },
+	            "value": 7
+	        },
+		    {
+	            "name": {
+	                "en": "Questionnaire for Youths",
+	                "es": "Questionnaire for Youths_es"
+	            },
+	            "value": 8
+	        },
+		    {
+	            "name": {
+	                "en": "Addiction",
+	                "es": "Addiction_es"
+	            },
+	            "value": 9
+	        }
+	    ]
+	}
+}
