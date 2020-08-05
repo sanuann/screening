@@ -72,7 +72,7 @@
             "rl:PC-PTSD/PCPTSD_schema",
             "rl:PSC/PSC_schema",
             "rl:PSC-Y/PSCY_schema",
-            "rl:CageAid/CageAid_schema"
+            "rl:CageAid/CageAid_schema",
             "rl:ThankYou/ThankYou_schema"
         ],
         "shuffle": false,
