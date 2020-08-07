@@ -67,7 +67,7 @@
             },
             {"isAbout": "rl:PEIS/PEIS_schema",
             "variableName": "PEIS_schema",
-            "prefLabel": {"en": "Emotional"}
+            "prefLabel": {"en": "Emotional Impact of Pandemic"}
             },
             {"isAbout": "rl:RCADS-25/RCADS-25_schema",
             "variableName": "RCADS-25_schema",
