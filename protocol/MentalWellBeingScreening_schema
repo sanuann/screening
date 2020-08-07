@@ -20,9 +20,14 @@
             "variableName": "ScreenerSelector_schema",
             "prefLabel": {"en": "Screener select"}
             },
+            {"isAbout": "items/screener_select",
+            "variableName": "screener_select",
+            "isVis": true
+            }
             {"isAbout": "rl:PHQ-9/PHQ9_schema",
             "variableName": "PHQ9_schema",
-            "prefLabel": {"en": "Depression"}
+            "prefLabel": {"en": "Depression"},
+            "isVis": "screener_select === 1"
             },
             {"isAbout": "rl:EPDS/EPDS_schema",
             "variableName": "EPDS_schema",
