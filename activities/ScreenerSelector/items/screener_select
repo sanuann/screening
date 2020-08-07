@@ -7,7 +7,7 @@
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": {
-        "en": "Select one among these: "
+        "en": "Select any of the following for which you would like to do a self assessment:"
     },
     "ui": {
         "inputType": "radio"
@@ -91,7 +91,7 @@
 	        },
 		    {
 	            "name": {
-	                "en": "Emotional",
+	                "en": "Emotional Impact of Pandemic",
 	                "es": "Emotional_es"
 	            },
 	            "value": 11
