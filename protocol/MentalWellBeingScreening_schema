@@ -16,6 +16,10 @@
     },
     "ui": {
         "addProperties": [
+            {"isAbout": "../activities/ScreenerSelector/ScreenerSelector_schema",
+            "variableName": "ScreenerSelector_schema",
+            "prefLabel": {"en": "Screener select"}
+            },
             {"isAbout": "rl:PHQ-9/PHQ9_schema",
             "variableName": "PHQ9_schema",
             "prefLabel": {"en": "Depression"}

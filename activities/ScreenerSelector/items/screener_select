@@ -24,70 +24,91 @@
 	                "en": "Depression",
 	                "es": "Depression_es"
 	            },
-	            "value": 0
+	            "value": 1
 	        },
 	        {
 	            "name": {
 	                "en": "Postpartum Depression",
 	                "es": "Postpartum Depression_es"
 	            },
-	            "value": 1
+	            "value": 2
 	        },
 	        {
 	            "name": {
 	                "en": "Anxiety",
 	                "es": "Anxiety_es"
 	            },
-	            "value": 2
+	            "value": 3
 	        },
 	        {
 	            "name": {
 	                "en": "Psychosis",
 	                "es": "Psychosis_es"
 	            },
-	            "value": 3
+	            "value": 4
 	        },
 		    {
 	            "name": {
 	                "en": "Bipolar",
 	                "es": "Bipolar_es"
 	            },
-	            "value": 4
+	            "value": 5
 	        },
 		    {
 	            "name": {
 	                "en": "Eating Disorder",
 	                "es": "Eating Disorder_es"
 	            },
-	            "value": 5
+	            "value": 6
 	        },
 		    {
 	            "name": {
 	                "en": "PTSD",
 	                "es": "PTSD_es"
 	            },
-	            "value": 6
+	            "value": 7
 	        },
 		    {
 	            "name": {
 	                "en": "Questionnaire for Parents",
 	                "es": "Questionnaire for Parents_es"
 	            },
-	            "value": 7
+	            "value": 8
 	        },
 		    {
 	            "name": {
 	                "en": "Questionnaire for Youths",
 	                "es": "Questionnaire for Youths_es"
 	            },
-	            "value": 8
+	            "value": 9
 	        },
 		    {
 	            "name": {
 	                "en": "Addiction",
 	                "es": "Addiction_es"
 	            },
-	            "value": 9
+	            "value": 10
+	        },
+		    {
+	            "name": {
+	                "en": "Emotional",
+	                "es": "Emotional_es"
+	            },
+	            "value": 11
+	        },
+		    {
+	            "name": {
+	                "en": "Child Anxiety and Depression",
+	                "es": "Child Anxiety and Depression_es"
+	            },
+	            "value": 12
+	        },
+		    {
+	            "name": {
+	                "en": "Disability",
+	                "es": "Disability_es"
+	            },
+	            "value": 13
 	        }
 	    ]
 	}
