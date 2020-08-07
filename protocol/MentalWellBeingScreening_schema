@@ -23,7 +23,7 @@
             {"isAbout": "items/screener_select",
             "variableName": "screener_select",
             "isVis": true
-            }
+            },
             {"isAbout": "rl:PHQ-9/PHQ9_schema",
             "variableName": "PHQ9_schema",
             "prefLabel": {"en": "Depression"},
