@@ -1,7 +1,7 @@
 {
     "@context": [ "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
         {
-            "rl": "https://raw.githubusercontent.com/ReproNim/reproschema-library/31da36f4a8a0a09b3ec4534709680ce286030446/activities/"
+            "rl": "https://raw.githubusercontent.com/ReproNim/reproschema-library/070c1768a023420202ace00ba9f6e7ffe2b8dfbf/activities/"
         }
     ],
     "@type": "reproschema:Protocol",
