@@ -20,6 +20,7 @@
             "variableName": "ScreenerSelector_schema",
             "prefLabel": {"en": "Screener select"}
             },
+            https://raw.githubusercontent.com/sanuann/screening/master/activities/ScreenerSelector/items/screener_select
             {"isAbout": "../activities/ScreenerSelector/items/screener_select",
             "variableName": "screener_select",
             "isVis": true
@@ -31,7 +32,8 @@
             },
             {"isAbout": "rl:EPDS/EPDS_schema",
             "variableName": "EPDS_schema",
-            "prefLabel": {"en": "Postpartum Depression"}
+            "prefLabel": {"en": "Postpartum Depression"},
+            "isVis": "screener_select.includes(2)"
             },
             {"isAbout": "rl:GAD7/GAD7_schema",
             "variableName": "GAD7_schema",
