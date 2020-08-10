@@ -20,7 +20,6 @@
             "variableName": "ScreenerSelector_schema",
             "prefLabel": {"en": "Screener select"}
             },
-            https://raw.githubusercontent.com/sanuann/screening/master/activities/ScreenerSelector/items/screener_select
             {"isAbout": "../activities/ScreenerSelector/items/screener_select",
             "variableName": "screener_select",
             "isVis": true
