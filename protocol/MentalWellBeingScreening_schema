@@ -27,7 +27,7 @@
             {"isAbout": "rl:PHQ-9/PHQ9_schema",
             "variableName": "PHQ9_schema",
             "prefLabel": {"en": "Depression"},
-            "isVis": "screener_select === 1"
+            "isVis": "screener_select.includes(1)"
             },
             {"isAbout": "rl:EPDS/EPDS_schema",
             "variableName": "EPDS_schema",
