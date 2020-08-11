@@ -36,47 +36,58 @@
             },
             {"isAbout": "rl:GAD7/GAD7_schema",
             "variableName": "GAD7_schema",
-            "prefLabel": {"en": "Anxiety"}
+            "prefLabel": {"en": "Anxiety"},
+            "isVis": "screener_select.includes(3)"
             },
             {"isAbout": "rl:ProdromalQuestionnaireBriefVersion/PQ-B_schema",
             "variableName": "PQ-B_schema",
-            "prefLabel": {"en": "Psychosis"}
+            "prefLabel": {"en": "Psychosis"},
+            "isVis": "screener_select.includes(4)"
             },
             {"isAbout": "rl:MoodDisorderQuestionnaire/MDQ_schema",
             "variableName": "MDQ_schema",
-            "prefLabel": {"en": "Bipolar"}
+            "prefLabel": {"en": "Bipolar"},
+            "isVis": "screener_select.includes(5)"
             },
             {"isAbout": "rl:SWED/SWED_schema",
             "variableName": "SWED_schema",
-            "prefLabel": {"en": "Eating Disorder"}
+            "prefLabel": {"en": "Eating Disorder"},
+            "isVis": "screener_select.includes(6)"
             },
             {"isAbout": "rl:PostTraumaticStressDisorder/PTSD_schema",
             "variableName": "PTSD_schema",
-            "prefLabel": {"en": "PTSD"}
+            "prefLabel": {"en": "PTSD"},
+            "isVis": "screener_select.includes(7)"
             },
             {"isAbout": "rl:PSC-17/PSC-17_schema",
             "variableName": "PSC-17_schema",
-            "prefLabel": {"en": "Questionnaire for Parents"}
+            "prefLabel": {"en": "Questionnaire for Parents"},
+            "isVis": "screener_select.includes(8)"
             },
             {"isAbout": "rl:PSC-17-Y/PSC-17-Y_schema",
             "variableName": "PSC-17-Y_schema",
-            "prefLabel": {"en": "Questionnaire for Youths"}
+            "prefLabel": {"en": "Questionnaire for Youths"},
+            "isVis": "screener_select.includes(9)"
             },
             {"isAbout": "rl:CageAid/CageAid_schema",
             "variableName": "CageAid_schema",
-            "prefLabel": {"en": "Addiction"}
+            "prefLabel": {"en": "Addiction"},
+            "isVis": "screener_select.includes(10)"
             },
             {"isAbout": "rl:PEIS/PEIS_schema",
             "variableName": "PEIS_schema",
-            "prefLabel": {"en": "Emotional Impact of Pandemic"}
+            "prefLabel": {"en": "Emotional Impact of Pandemic"},
+            "isVis": "screener_select.includes(11)"
             },
             {"isAbout": "rl:RCADS-25/RCADS-25_schema",
             "variableName": "RCADS-25_schema",
-            "prefLabel": {"en": "Child Anxiety and Depression"}
+            "prefLabel": {"en": "Child Anxiety and Depression"},
+            "isVis": "screener_select.includes(12)"
             },
             {"isAbout": "rl:WHODAS12/WHODAS12_schema",
             "variableName": "WHODAS12_schema",
-            "prefLabel": {"en": "Disability"}
+            "prefLabel": {"en": "Disability"},
+            "isVis": "screener_select.includes(13)"
             },
             {"isAbout": "rl:ThankYou/ThankYou_schema",
             "variableName": "ThankYou_schema",
