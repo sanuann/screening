@@ -100,6 +100,7 @@
             "rl:EPDS/EPDS_schema",
             "rl:GAD7/GAD7_schema",
             "rl:ProdromalQuestionnaireBriefVersion/PQ-B_schema",
+            "rl:MoodDisorderQuestionnaire/MDQ_schema",
             "rl:ThankYou/ThankYou_schema"
         ],
         "shuffle": false,
