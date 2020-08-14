@@ -44,7 +44,7 @@
             "prefLabel": {"en": "Psychosis"},
             "isVis": "screener_select.includes(4)"
             },
-            {"isAbout": "rl:MoodDisorderQuestionnaire/MDQ_schema",
+            {"isAbout": "rl:BADS/BADS_schema",
             "variableName": "MDQ_schema",
             "prefLabel": {"en": "Bipolar"},
             "isVis": "screener_select.includes(5)"
@@ -100,7 +100,7 @@
             "rl:EPDS/EPDS_schema",
             "rl:GAD7/GAD7_schema",
             "rl:ProdromalQuestionnaireBriefVersion/PQ-B_schema",
-            "rl:MoodDisorderQuestionnaire/MDQ_schema",
+            "rl:BADS/BADS_schema",
             "rl:ThankYou/ThankYou_schema"
         ],
         "shuffle": false,
